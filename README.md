@@ -26,10 +26,25 @@ Our proposed system is designed to enhance traffic management at a traffic junct
 - Based on the number of vehicles detected for each class, we have developed an algorithm that provides the required time for the particular lane to pass all vehicles.
 - This calculated time is then assigned to the Signal Module, which simulates a green signal for that time period, along with displaying the assigned time.
  Other signals are set to red, indicating their waiting time before opening.
-- The algorithm assigns a time within a range of 5 to 30 seconds for the green signals based on the density of vehicles. so, maximum waiting time for signal next 
-  to open signal is 30 second and minimum is 5 second. similarly we will give time to all remaining lane with red signal.
+- The algorithm assigns a time within a range of 5 to 30 seconds for the green signals based on the density of vehicles. so, maximum waiting time for signal next to open signal is 30 second and minimum is 5 second. similarly we will give time to all remaining lane with red signal.
+  
+## Signal switching Module
 Finally, the signal switching module sets the green signal timer according to traffic density detected by the vehicle detection module and updates the red signal timers of other signals accordingly. The signal switches clockwise  according to the timer.
 
+## Visualization Module
+- Simultaneously, all the data is stored in a CSV file, including the time, day, month, number of cars, number of bikes, number of trucks, number of buses, and the link to the captured image.
+- This data is imported into Power BI, where we create a dashboard to visualize the information.
+- The dashboard provides insights such as traffic patterns on specific days of the week, the busiest months of the year, and the overall traffic situation in the city.
+Additionally, the dashboard allows users to view individual junctions' traffic data, including specific lanes.
+- This comprehensive visualization aids in making future traffic predictions, such as anticipating heavy traffic during festivals and facilitating the diversion of vehicles accordingly.
+
+
+## Flow chart For out proposed solution
+
+<div align="center">
+  
+![WhatsApp Image 2023-07-01 at 09 38 35](https://github.com/RNVALA/Traffic-Flow-Optimization-and-Number-Plate-Recognition-/assets/112707550/b1e24760-d482-49d4-9bbc-74eee7e3ba15)
+</div>
 
 
 
