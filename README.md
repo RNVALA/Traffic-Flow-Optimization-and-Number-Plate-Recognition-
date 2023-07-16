@@ -49,6 +49,15 @@ Additionally, the dashboard allows users to view individual junctions' traffic d
 ![WhatsApp Image 2023-07-01 at 09 38 35](https://github.com/RNVALA/Traffic-Flow-Optimization-and-Number-Plate-Recognition-/assets/112707550/b1e24760-d482-49d4-9bbc-74eee7e3ba15)
 </div>
 
+## Screenshot of Implemented work
+
+### Capturing Image and detecting the image
+
+![image](https://github.com/RNVALA/Traffic-Flow-Optimization-and-Number-Plate-Recognition-/assets/112707550/98a67734-13b2-4479-b59a-92594f4bbec9)
+
+### Storing Image for future analysis with date,time
+
+![image](https://github.com/RNVALA/Traffic-Flow-Optimization-and-Number-Plate-Recognition-/assets/112707550/cfb310e6-5da7-4ddc-89f1-89b53b2caddd)
 
 
 
