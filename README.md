@@ -20,6 +20,9 @@ With the increasing crime and vehicle missing in cities. it has become  difficul
 Our proposed system is designed to enhance traffic management at a traffic junction by taking an image from the CCTV camera as input for real-time traffic density analysis. The system is divided into three modules, including vehicle detectionand recognition,  signal switching, and visualization.
 
 ##  Detection and Recognition Module:
+
+![facial-recognition-gif-v5-o_1150](https://github.com/RNVALA/Traffic-Flow-Optimization-and-Number-Plate-Recognition-/assets/112707550/9e47a0eb-3671-4f0c-bee8-9d153a9187f0)
+
 - This module captures an image of a specific signal when a lane is closed and stores it in a corresponding lane folder.
 - The captured image is then loaded back, and the module performs detection and recognition on all classes present in the COCO dataset, which contains 80 classes.
   However, we are specifically interested in storing details for four classes: cars, bikes, trucks, and buses.
