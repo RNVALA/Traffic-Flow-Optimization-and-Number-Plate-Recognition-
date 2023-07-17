@@ -14,7 +14,7 @@ With the increasing population and number of automobiles in cities, traffic cong
 
 ## Number plate detection
 
-With the increasing crime and vehicle missing in cities. it has become  difficult for police and management to  track of the vehicles. The developed system aims to <code>automaticaly capture every vehicle details passed by juction or lane.</code>
+With the increasing crime and vehicle missing in cities. it has become  difficult for police and management to  track of the vehicles. The developed system aims to <code>automaticaly capture every vehicle details passed by junction or lane.</code>
 
 # Solution
 Our proposed system is designed to enhance traffic management at a traffic junction by taking an image from the CCTV camera as input for real-time traffic density analysis. The system is divided into three modules, including vehicle detectionand recognition,  signal switching, and visualization.
@@ -59,8 +59,12 @@ Additionally, the dashboard allows users to view individual junctions' traffic d
 
 ![image](https://github.com/RNVALA/Traffic-Flow-Optimization-and-Number-Plate-Recognition-/assets/112707550/cfb310e6-5da7-4ddc-89f1-89b53b2caddd)
 
+### Implementation at Junction
+![cover photo](https://github.com/RNVALA/Traffic-Flow-Optimization-and-Number-Plate-Recognition-/assets/112707550/ca6cba84-f136-48e1-81fc-1bd426fb7a2a)
 
+### Implementation Video 
 
+https://www.youtube.com/watch?v=zLBz5_a-QbM
 
 
 
